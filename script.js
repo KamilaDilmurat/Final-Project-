@@ -22,6 +22,14 @@ require([
         })
           .then(addLayer)
           .catch(rejection);
+        
+         var layer = Layer.fromPortalItem({
+          portalItem: {
+            id: "29148795c78c4591a43902f90680fe82"
+          }
+        })
+          .then(addLayer)
+          .catch(rejection);
   
   var layer = Layer.fromPortalItem({
           portalItem: {
