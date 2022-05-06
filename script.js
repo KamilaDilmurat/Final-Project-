@@ -17,7 +17,7 @@ require([
 
         var layer = Layer.fromPortalItem({
           portalItem: {
-            id: "2cdad2d703344d1fa2681bb5fb9fe221"
+            id: "6d6d3076dc0c444cacc4a413b7427920"
           }
         })
           .then(addLayer)
@@ -25,7 +25,7 @@ require([
   
   var layer = Layer.fromPortalItem({
           portalItem: {
-            id: "ec224b6e776c44ff8169d1f0fa27e5f2"
+            id: "1930a11f49ae402bb725398c8a3c79e9"
           }
         })
           .then(addLayer)
