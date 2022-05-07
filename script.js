@@ -4,7 +4,7 @@ require([
         "esri/layers/Layer"
       ], function (Map, SceneView, Layer) {
         const map = new Map({
-          basemap: "topo-vector",
+          basemap: "dark-gray",
           ground: "world-elevation" 
         });
 
@@ -17,7 +17,7 @@ require([
 
         var layer = Layer.fromPortalItem({
           portalItem: {
-            id: "6d6d3076dc0c444cacc4a413b7427920"
+            id: "001215337f694fb4a44264582520d507"
           }
         })
           .then(addLayer)
